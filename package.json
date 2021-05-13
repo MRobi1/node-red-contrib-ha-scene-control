@@ -1,0 +1,27 @@
+{
+  "name": "node-red-contrib-ha-scene-control",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanjohnsontv/node-red-contrib-ha-scene-control.git"
+  },
+  "description": "Nodes for easily managing button presses of popular remotes/switches paired through various Home Assistant integrations",
+  "keywords": [
+    "node-red",
+    "home assistant",
+    "notification",
+    "scene control"
+  ],
+  "node-red": {
+    "nodes": {
+      "scene-manager": "nodes/scene-manager.js"
+    }
+  },
+  "author": "Ryan Johnson",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^8.3.1",
+    "node-red": "^1.2.9",
+    "node-red-node-test-helper": "^0.2.7"
+  },
+}
